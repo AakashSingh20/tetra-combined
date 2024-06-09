@@ -1,0 +1,87 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+#mainContainer {
+  height: 89vh;
+  /* background-color: aqua; */
+}
+
+#chatsContainer {
+  /* background-color: brown; */
+  height: 90%;
+  overflow-y: scroll;
+}
+
+#chats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#scrollfeed {
+  /* height: 100%; */
+  overflow-y: scroll;
+  /* background-color: brown; */
+}
+
+/* #userchat {
+  overflow-y: scroll;
+  display: flex;
+  align-items: space-between;
+} */
+
+#userchatscroll {
+  /* overflow-y: scroll; */
+  /* background-color: blue; */
+  height: 90%;
+  /* padding-right: 0px; */
+}
+#rightchatbox {
+  /* background-color: blueviolet; */
+  height: 89vh;
+}
+
+.usermodal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#searchlistitem {
+  /* background-color: red; */
+  display: flex;
+}
+
+#listchat {
+  /* background-color: aqua; */
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* 
+#sendmessage {
+  background-color: aquamarine;
+  bottom: 0;
+} */
+
+#msg {
+  /* background-color: burlywood; */
+  overflow: hidden;
+}
+
+#sendername a {
+  font-size: 10px;
+}
+
+#sendername {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
